@@ -1,0 +1,398 @@
+// JavaScript Document DS DIGITAL FUNÇÕES - DENILSON PAIVA - WEBMASTER.
+	
+	
+	// //   LOGIN NO SISTEMA DO CLIENTE   ////////////////////////////////////////////////////////////////////
+			
+			function checarlogin(){
+					
+					if(document.login_cond.unidade.value=="")
+					{
+						alert( "Preencha campo UNIDADE corretamente!" );
+							document.login_cond.unidade.focus();
+								return false;
+					}
+					
+					if(document.login_cond.senha_unidade.value=="")
+					{
+						alert( "Preencha campo SENHA!" );
+							document.login_cond.senha_unidade.focus();
+								return false;
+					}
+					
+												
+			}
+			
+			//   AGENDAMENTO DE ÁREAS   ////////////////////////////////////////////////////////////////////
+			
+			
+			function checa_agenda_area(){
+				
+				
+				// nome    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_nome.value=="")
+					{
+						alert( "Preencha campo nome!" );
+							document.agenda.agenda_nome.focus();
+								return false;
+					}
+					
+					// email    ---------------------------------------------------------------------------
+					
+					if( document.agenda.agenda_email.value=="" || document.agenda.agenda_email.value.indexOf('@')==-1 || document.agenda.agenda_email.value.indexOf('.')==-1 )
+					{
+						alert( "Preencha campo e-mail corretamente! \n\n Não esqueça o @ !" );
+							document.agenda.agenda_email.focus();
+								return false;
+					}
+					// fone    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_telefone.value=="")
+					{
+						alert( "Preencha campo fone!" );
+							document.agenda.agenda_telefone.focus();
+								return false;
+					}
+					// data   ---------------------------------------------------------------------------
+					if(document.agenda.agenda_data.value=="")
+					{
+						alert( "Preencha campo data!" );
+							document.agenda.agenda_data.focus();
+								return false;
+					}
+			}
+			
+			function checa_agenda(){
+					
+					/*// condominio    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_condominio.value=="")
+					{
+						alert( "Preencha campo CONDOMÍNIO!" );
+							document.agenda.agenda_condominio.focus();
+								return false;
+					}
+					// unidade    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_unidade.value=="")
+					{
+						alert( "Preencha campo UNIDADE!" );
+							document.agenda.agenda_unidade.focus();
+								return false;
+					}*/
+					
+					// nome    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_nome.value=="")
+					{
+						alert( "Preencha campo NOME!" );
+							document.agenda.agenda_nome.focus();
+								return false;
+					}
+					
+					// cpf    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_cpf.value=="" || document.agenda.agenda_cpf.value.length < 14)
+					{
+						alert( "Preencha campo CPF!" );
+							document.agenda.agenda_cpf.focus();
+								return false;
+					}
+					
+					// RG    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_rg.value=="")
+					{
+						alert( "Preencha campo RG!" );
+							document.agenda.agenda_rg.focus();
+								return false;
+					}
+					
+					// email    ---------------------------------------------------------------------------
+					
+					if( document.agenda.agenda_email.value=="" || document.agenda.agenda_email.value.indexOf('@')==-1 || document.agenda.agenda_email.value.indexOf('.')==-1 )
+					{
+						alert( "Preencha campo E-MAIL corretamente! \n\n Não esqueça o @ !" );
+							document.agenda.agenda_email.focus();
+								return false;
+					}
+					// tipo morador    ---------------------------------------------------------------------------
+					
+					if (document.agenda.tipo_morador[0].checked == false && document.agenda.tipo_morador[1].checked == false) {
+							alert('Escolha o Tipo de Morador!');
+								return false;
+					  }
+  
+  
+					// telefone    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_telefone.value=="")
+					{
+						alert( "Preencha campo TELEFONE!" );
+							document.agenda.agenda_telefone.focus();
+								return false;
+					}
+					
+					// celular    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_celular.value=="")
+					{
+						alert( "Preencha campo celular!" );
+							document.agenda.agenda_celular.focus();
+								return false;
+					}
+					
+					// comercial    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_comercial.value=="")
+					{
+						alert( "Preencha campo fone comercial!" );
+							document.agenda.agenda_comercial.focus();
+								return false;
+					}
+					
+					// animal    ---------------------------------------------------------------------------
+					
+					if (document.agenda.animal[0].checked == false && document.agenda.animal[1].checked == false) {
+							alert('Responda se tem animal ou não! e se tem, qual?');
+								return false;
+					  }
+  
+  
+					// data    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_data.value=="")
+					{
+						alert( "Preencha campo DATA corretamente!" );
+							document.agenda.agenda_data.focus();
+								return false;
+					}
+					
+					
+							
+			}
+			
+			
+			
+			// CHECA AGENDA SAIDA
+			
+			function checa_agenda_saida(){
+					
+					/*// condominio    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_condominio.value=="")
+					{
+						alert( "Preencha campo CONDOMÍNIO!" );
+							document.agenda.agenda_condominio.focus();
+								return false;
+					}
+					// unidade    ---------------------------------------------------------------------------
+					if(document.agenda.agenda_unidade.value=="")
+					{
+						alert( "Preencha campo UNIDADE!" );
+							document.agenda.agenda_unidade.focus();
+								return false;
+					}*/
+					
+					// nome    ---------------------------------------------------------------------------
+					if(document.agenda_saida.agenda_nome.value=="")
+					{
+						alert( "Preencha campo NOME!" );
+							document.agenda_saida.agenda_nome.focus();
+								return false;
+					}
+					
+					
+					
+					// email    ---------------------------------------------------------------------------
+					
+					if( document.agenda_saida.agenda_email.value=="" || document.agenda_saida.agenda_email.value.indexOf('@')==-1 || document.agenda_saida.agenda_email.value.indexOf('.')==-1 )
+					{
+						alert( "Preencha campo E-MAIL corretamente! \n\n Não esqueça o @ !" );
+							document.agenda_saida.agenda_email.focus();
+								return false;
+					}
+					
+  
+					// telefone    ---------------------------------------------------------------------------
+					if(document.agenda_saida.agenda_telefone.value=="")
+					{
+						alert( "Preencha campo TELEFONE!" );
+							document.agenda_saida.agenda_telefone.focus();
+								return false;
+					}
+					
+					// celular    ---------------------------------------------------------------------------
+					if(document.agenda_saida.agenda_celular.value=="")
+					{
+						alert( "Preencha campo celular!" );
+							document.agenda_saida.agenda_celular.focus();
+								return false;
+					}
+					
+					// comercial    ---------------------------------------------------------------------------
+					if(document.agenda_saida.agenda_comercial.value=="")
+					{
+						alert( "Preencha campo fone comercial!" );
+							document.agenda_saida.agenda_comercial.focus();
+								return false;
+					}
+					
+					
+  
+					// data    ---------------------------------------------------------------------------
+					if(document.agenda_saida.agenda_data.value=="")
+					{
+						alert( "Preencha campo DATA corretamente!" );
+							document.agenda_saida.agenda_data.focus();
+								return false;
+					}
+					
+					
+							
+			}
+			
+			
+			// imprimi aviso
+			
+			function imprimir(){
+			if (!window.print){
+			alert("Use o Netscape ou Internet Explorer \n nas versões 4.0 ou superior!")
+			return
+			}
+			document.getElementById('button').style.display = "none";
+			window.print()
+			}
+
+
+			//   CONTATO   ////////////////////////////////////////////////////////////////////
+			
+			function checa_contato(){
+					
+					// nome
+					if(document.contato.nome_contato.value=="")
+					{
+						alert( "Preencha campo NOME!" );
+							document.contato.nome_contato.focus();
+								return false;
+					}
+					
+					// email
+					
+					if( document.contato.email_contato.value=="" || document.contato.email_contato.value.indexOf('@')==-1 || document.contato.email_contato.value.indexOf('.')==-1 )
+					{
+						alert( "Preencha campo E-MAIL corretamente! \n\n Não esqueça o @ !" );
+							document.contato.email_contato.focus();
+								return false;
+					}
+					// telefone
+					if(document.contato.telefone_contato.value=="")
+					{
+						alert( "Preencha campo TELEFONE!" );
+							document.contato.telefone_contato.focus();
+								return false;
+					}
+					
+					// asunto
+					if(document.contato.assunto.value=="")
+					{
+						alert( "Preencha campo ASSUNTO corretamente!" );
+							document.contato.assunto.focus();
+								return false;
+					}
+					
+					// mensagem
+					if(document.contato.mensagem_contato.value=="")
+					{
+						alert( "Preencha campo MENSAGEM!" );
+							document.contato.mensagem_contato.focus();
+								return false;
+					}
+							
+			}
+			
+//////////////////////////////////////////////////////////////////////////////////////
+
+			//   PROPOSTA   ////////////////////////////////////////////////////////////////////
+			
+			function checa_proposta(){
+					
+					// nome
+					if(document.proposta.proposta_nome.value=="")
+					{
+						alert( "Preencha campo NOME!" );
+							document.proposta.proposta_nome.focus();
+								return false;
+					}
+					
+					// email
+					
+					if( document.proposta.proposta_email.value=="" || document.proposta.proposta_email.value.indexOf('@')==-1 || document.proposta.proposta_email.value.indexOf('.')==-1 )
+					{
+						alert( "Preencha campo E-MAIL corretamente! \n\n Não esqueça o @ !" );
+							document.proposta.proposta_email.focus();
+								return false;
+					}
+					// telefone
+					if(document.proposta.proposta_telefone.value=="")
+					{
+						alert( "Preencha campo TELEFONE!" );
+							document.proposta.proposta_telefone.focus();
+								return false;
+					}
+					
+					// unidade
+					if(document.proposta.assunto.value=="")
+					{
+						alert( "Preencha campo ASSUNTO corretamente!" );
+							document.proposta.assunto.focus();
+								return false;
+					}
+					
+					// mensagem
+					if(document.proposta.proposta_mensagem.value=="")
+					{
+						alert( "Preencha campo MENSAGEM!" );
+							document.proposta.proposta_mensagem.focus();
+								return false;
+					}
+							
+			}
+			
+			//   FALE COM O SINDICO   ////////////////////////////////////////////////////////////////////
+			
+			function checa_fale(){
+					
+					// nome
+					if(document.fale.fale_nome.value=="")
+					{
+						alert( "Preencha campo NOME!" );
+							document.fale.fale_nome.focus();
+								return false;
+					}
+					
+					// email
+					
+					if( document.fale.fale_email.value=="" || document.fale.email_contato.value.indexOf('@')==-1 || document.fale.email_contato.value.indexOf('.')==-1 )
+					{
+						alert( "Preencha campo E-MAIL corretamente! \n\n Não esqueça o @ !" );
+							document.fale.fale_email.focus();
+								return false;
+					}
+					// telefone
+					if(document.fale.fale_fone.value=="")
+					{
+						alert( "Preencha campo TELEFONE!" );
+							document.fale.fale_fone.focus();
+								return false;
+					}
+					
+					// asunto
+					if(document.fale.fale_mensagem_assunto.value=="")
+					{
+						alert( "Preencha campo ASSUNTO corretamente!" );
+							document.fale.fale_mensagem_assunto.focus();
+								return false;
+					}
+					
+					// mensagem
+					if(document.fale.fale_mensagem.value=="")
+					{
+						alert( "Preencha campo MENSAGEM!" );
+							document.contato.fale_mensagem.focus();
+								return false;
+					}
+							
+			}
+			
+			
+//////////////////////////////////////////////////////////////////////////////////////
+					

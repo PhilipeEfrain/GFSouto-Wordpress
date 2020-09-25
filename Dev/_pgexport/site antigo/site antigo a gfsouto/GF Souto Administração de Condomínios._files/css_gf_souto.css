@@ -1,0 +1,401 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 1px;
+}
+#conteiner_topo {
+	background-image: url(imagens/ftopo.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+}
+#conteiner_topo_cond {
+	background-image: url(imagens/ftopocondominios.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+}
+
+#topo {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 400px;
+}
+#topo_cond {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 335px;
+	display: block;
+}
+#bannerflash {
+	height: 90px;
+	width: 990px;
+}
+
+#menu_cond {
+	height: 110px;
+	width: 990px;
+}
+.input {
+	font-size: large;
+	color: #F30;
+	background-image: url(imagens/lbotlogin.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 280px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-left: 20px;
+}
+.input2 {
+	font-size: medium;
+	color: #F30;
+	height: 75%;
+	background-color: #f1f1f1;
+	width: 90%;
+	border: 1px solid #CCC;
+}
+
+.botao {
+	font-size: large;
+	color: #FFF;
+	background-image: url(imagens/ok.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 169px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.erro {
+	font-size: large;
+	color: #F00;
+	background-color: #FFC;
+}
+
+#conteiner_topo_cond #topo_cond #nome_cond #logo_cond {
+	width: 200px;
+	float: left;
+	height: 100px;
+	background-image: url(imagens/logo-condominios.png);
+	padding-top: 5px;
+	padding-left: 5px;
+	background-repeat: no-repeat;
+}
+#conteiner_topo_cond #topo_cond #nome_cond #nome_cond_titulo {
+	float: left;
+	width: 780px;
+	margin-top: 40px;
+	color: #FC0;
+	font-size: x-large;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#conteiner_topo_cond #centro #conteudo #conteudocentro #login_cond #logindocliente {
+	margin-left: auto;
+	width: 350px;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#logomarca {
+	float: left;
+	width: 340px;
+	z-index: 1000;
+}
+#menu {
+	float: right;
+	width: 650px;
+	padding-top: 20px;
+	z-index: 800;
+}
+
+#rodape {
+	background-color: #101010;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 200px;
+}
+#rodape a{
+	color: #666;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#rodape a:hover {
+	color: #FF3;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+#rodape_fundo {
+	background-color: #101010;
+	clear: both;
+}
+
+#centro {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#informativo {
+	width: 300px;
+	float: left;
+}
+#botoes_condominios {
+	padding: 10px;
+}
+#linha {
+	width: 990px;
+	float: left;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+#linha a {
+	color: #666;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#linha a:hover {
+	color: #C90;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+#lgcond {
+	margin: 3px;
+	float: left;
+	height: 63px;
+	width: 85px;
+	text-align: center;
+	font-size: x-small;
+	color: #333;
+	background-image: url(botao_condominios-2.jpg);
+	padding-top: 7px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+#lgcond a{
+	font-size: x-small;
+	color: #333;
+	text-decoration: none;
+}
+#lgcond a:hover {
+	font-size: x-small;
+	color: #C90;
+	text-decoration: underline;
+}
+
+
+
+
+#condominios {
+	float: right;
+	width: 670px;
+}
+#titulo_informativo {
+	font-size: x-large;
+	color: #666;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+#titulo_bemvindo {
+	font-size: x-large;
+	color: #666;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+#link_informativo {
+	margin-bottom: 20px;
+	text-align: justify;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	font-size: 11px;
+	color: #666;
+}
+#link_informativo a {
+	color: #333;
+	text-decoration: none;
+}
+#link_informativo a:hover {
+	color: #C90;
+	text-decoration: underline;
+}
+#conteiner_topo #topo #logomarca img {
+	margin-top: 20px;
+}
+
+
+
+#texto_bemvindo {
+	color: #666;
+	font-size: x-small;
+}
+#conteudocentro {
+	margin: 5px;
+	padding: 5px;
+	width: 970px;
+}
+
+
+#link_meioambiente {
+	margin-bottom: 20px;
+	width: 280px;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+#conteudo {
+	width: 990px;
+	float: left;
+}
+.cliente {
+	color: #F30;
+	font-size: large;
+}
+
+#nome_cond {
+	height: 110px;
+	width: 990px;
+}
+
+.t01 {
+	text-align: justify;
+	font-size: 12px;
+}
+
+
+.t02 {
+	color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.t03 {
+	font-size: 12px;
+}
+.t04 {
+	font-size: 10px;
+}
+.t05 {
+	font-size: 33px;
+	color: #F8C300;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 15px;
+}
+.t06 {
+	font-size: 20px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.t07 {
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+#gf_lista {
+	margin: 5px;
+	padding: 2px;
+	width: 700px;
+	float: left;
+	border: 1px dashed #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.f_rod {
+	color: #333;
+	background-color: #FF6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#foto {
+	margin: 20px;
+}
+
+#menu_classificado {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+	margin: 3px;
+}
+#menu_classificado a{
+	color: #333;
+	text-decoration: none;
+
+}
+#menu_classificado a:hover {
+	color: #F60;
+	text-decoration: underline;
+}
+#aviso {
+	border: 2px dashed #F60;
+	padding: 5px;
+	margin: 5px;
+	background-color: #FF9;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 200px;
+	overflow: auto;
+}
+#mural {
+	border: 2px dashed #CCC;
+	padding: 5px;
+	margin: 5px;
+	background-color: #f1f1f1;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#enquete {
+	border: 2px dashed #CCC;
+	padding: 5px;
+	margin: 5px;
+	background-color: #f1f1f1;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#documentos {
+	border: 2px dashed #CCC;
+	padding: 5px;
+	margin: 5px;
+	background-color: #f1f1f1;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#classificados {
+	border: 2px dashed #CCC;
+	padding: 5px;
+	margin: 5px;
+	background-color: #f1f1f1;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.t08 {
+	font-size: 20px;
+	color: #0C0;
+	font-family: Arial, Helvetica, sans-serif;
+}
